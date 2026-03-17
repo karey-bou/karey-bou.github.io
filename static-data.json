@@ -1,0 +1,243 @@
+{
+  "profile": {
+    "id": 1,
+    "name": "Karey Stratford Jr.",
+    "title": "Technical Leader in Program & Project Management | AI & Data Analytics",
+    "summary": "Results-driven IT Program Manager recognized for successfully delivering complex projects and fostering cross-enterprise collaboration to achieve strategic outcomes. 25 years in software Development/QA/IT project management with expertise in Agile & Hybrid Product Delivery.",
+    "location": "Jacksonville, FL",
+    "email": "kstratford@gmail.com",
+    "phone": "904-226-7078",
+    "linkedin": "www.linkedin.com/in/kareystratford",
+    "contactText": "Always eager to learn and embrace new challenges. Currently based in North Florida, but open to relocation for the right opportunity."
+  },
+  "experience": [
+    {
+      "id": 1,
+      "company": "Southern Oak Insurance Company",
+      "title": "Consulting Business Analyst",
+      "location": "Ponte Vedra Beach, Florida",
+      "period": "Sep 2025 - Dec 2025",
+      "description": [
+        "Assisted with migration and enhancement of Power BI dashboards, integrating data from legacy SQL environments into a new Snowflake‑based servicing platform.",
+        "Conducted comprehensive audits and user acceptance testing for insurance outputs and Data Warehouse updates.",
+        "Analyzed and audited existing telecom contracts, identifying cost‑saving opportunities delivering 2K in annual savings.",
+        "Evaluated Data Warehouse modernization options and authored a strategic white paper for the COO."
+      ],
+      "order": 1
+    },
+    {
+      "id": 2,
+      "company": "Sagent",
+      "title": "Product Operations Manager",
+      "location": "Jacksonville, FL",
+      "period": "Dec 2023 - July 2025",
+      "description": [
+        "Optimized Agile intake and release planning resulting in 52% decrease in time to initial review and a 46% accelerating product delivery.",
+        "Analyzed and prioritized backlog to improve cycle times resulting in a 21% year‐over‐year reduction in time to release.",
+        "Partnered with Product, Engineering, and Customer Success to drive execution across core mortgage servicing products."
+      ],
+      "order": 2
+    },
+    {
+      "id": 3,
+      "company": "Sagent",
+      "title": "Director of Program Management",
+      "location": "Jacksonville, FL",
+      "period": "Oct 2020 - July 2025",
+      "description": [
+        "Directed program delivery for the Default Management Platform (Tempo), coordinating four cross-functional teams.",
+        "Produced executive roadmaps, Gantt charts and resourcing reports supporting engineering capacity planning.",
+        "Led project planning via MS Project and Smartsheet and managed sprint execution and release planning through Azure DevOps."
+      ],
+      "order": 3
+    },
+    {
+      "id": 4,
+      "company": "defi SOLUTIONS",
+      "title": "Program Manager",
+      "location": "Jacksonville, Florida Area",
+      "period": "Nov 2019 - Sep 2020",
+      "description": [
+        "Orchestrated enterprise-wide IT integration post-merger of defi and Sagent.",
+        "Coordinated weekly rollup reporting on 20-workstream Enterprise integration project.",
+        "Personally presented 20 workstream 4-blocker project updates to C-level executive team on a weekly basis.",
+        "Authored Statement of Work for new implementation partnering with Rivian Financial Services."
+      ],
+      "order": 4
+    },
+    {
+      "id": 5,
+      "company": "Florida Blue",
+      "title": "IT Program Manager",
+      "location": "Metro Jacksonville",
+      "period": "Feb 2019 - Nov 2019",
+      "description": [
+        "Managed delivery of software development projects for two mission-critical enrollment systems.",
+        "Unified seven independent teams using Agile, Scrum, and hybrid methodologies.",
+        "Leveraged MS Project for budgeting and timeline tracking for all projects and financial reporting."
+      ],
+      "order": 5
+    },
+    {
+      "id": 6,
+      "company": "Black Knight",
+      "title": "Integration Program Manager",
+      "location": "Metro Jacksonville",
+      "period": "Feb 2018 - Feb 2019",
+      "description": [
+        "Championed delivery of Black Knight's first consumer-facing web/mobile app.",
+        "Streamlined vendor integrations via Postman, Splunk, and SoapUI; managed work prioritization and daily Scrum ceremonies."
+      ],
+      "order": 6
+    }
+  ],
+  "skills": [
+    {
+      "id": 4,
+      "category": "Leadership & Strategy",
+      "items": [
+        "Program Management",
+        "Product Operations",
+        "Change Management",
+        "Enterprise Integration",
+        "Executive Reporting",
+        "Resource Planning"
+      ]
+    },
+    {
+      "id": 5,
+      "category": "Methodologies",
+      "items": [
+        "Agile (Scrum/Kanban)",
+        "Hybrid Delivery",
+        "Waterfall",
+        "SDLC Optimization",
+        "Business Analysis"
+      ]
+    },
+    {
+      "id": 6,
+      "category": "Tools & Technologies",
+      "items": [
+        "MS Office",
+        "Excel Analytics",
+        "Productboard",
+        "ServiceNow",
+        "Salesforce Administration",
+        "Trello",
+        "Miro",
+        "Jira",
+        "Gantt Charts",
+        "Product Roadmaps",
+        "Backlog Management",
+        "MS Project / Smartsheet",
+        "Power BI / Snowflake",
+        "SQL / Data Analysis",
+        "Postman / Splunk"
+      ]
+    },
+    {
+      "id": 7,
+      "category": "Certifications",
+      "items": [
+        "PMP (Project Management Professional)",
+        "PSM I (Professional Scrum Master)",
+        "MTA: Windows OS Fundamentals"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": 1,
+      "school": "University of Florida",
+      "degree": "Master's Degree, Business Administration and Management (MBA)",
+      "year": "2009"
+    },
+    {
+      "id": 2,
+      "school": "University of Florida",
+      "degree": "Bachelor of Science, Electrical and Computer Engineering (BSEE)",
+      "year": "1999"
+    },
+    {
+      "id": 3,
+      "school": "PMI",
+      "degree": "PMP Certification, ID #2101398",
+      "year": "2017 – 2026"
+    },
+    {
+      "id": 4,
+      "school": "Scrum.org",
+      "degree": "Professional Scrum Master I (PSM I)",
+      "year": "2018"
+    },
+    {
+      "id": 5,
+      "school": "Mortgage Banking",
+      "degree": "School of Mortgage Banking I (SOMB)",
+      "year": "2020"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Black Knight Consumer Web/Mobile Launch",
+      "description": "Directed the delivery of the organization's first consumer-facing mobile and responsive web applications.",
+      "impact": "Successfully launched high-visibility digital products using hybrid Agile/Waterfall methodologies.",
+      "tags": [
+        "Mobile",
+        "Web",
+        "Executive Leadership",
+        "Hybrid Agile"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "defi & Sagent Enterprise Integration",
+      "description": "Orchestrated enterprise-wide IT integration post-merger of defi and Sagent Auto from Fiserv.",
+      "impact": "Managed 20+ workstreams and delivered weekly C-level reporting on critical integration milestones.",
+      "tags": [
+        "M&A",
+        "IT Integration",
+        "Change Management"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Default Management Platform (Tempo)",
+      "description": "Directed program delivery for the core Default Management platform, managing four cross-functional teams.",
+      "impact": "Improved resource utilization and engineering capacity planning through executive roadmap alignment.",
+      "tags": [
+        "Product Operations",
+        "Resource Management",
+        "FinTech"
+      ]
+    }
+  ],
+  "metrics": [
+    {
+      "id": 1,
+      "label": "Acceleration",
+      "value": "46%",
+      "description": "Reduction in product delivery time through optimized Agile intake and release planning."
+    },
+    {
+      "id": 2,
+      "label": "Review Efficiency",
+      "value": "52%",
+      "description": "Decrease in time to initial review by streamlining cross-functional coordination."
+    },
+    {
+      "id": 3,
+      "label": "Cycle Time",
+      "value": "21%",
+      "description": "Year-over-year reduction in time to release via prioritized backlog management."
+    },
+    {
+      "id": 4,
+      "label": "Experience",
+      "value": "25+",
+      "description": "Years leading software development, QA, and IT program management initiatives."
+    }
+  ]
+}
