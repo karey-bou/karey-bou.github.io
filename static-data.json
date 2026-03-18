@@ -7,7 +7,7 @@
     "location": "Jacksonville, FL",
     "email": "karey.stratford@gmail.com",
     "phone": "904-339-5842",
-    "linkedin": "www.linkedin.com/in/kareystratford",
+    "linkedin": "https://www.linkedin.com/in/kareystratford/",
     "contactText": "Always eager to learn and embrace new challenges. Currently based in North Florida, but open to relocation for the right opportunity."
   },
   "experience": [
@@ -142,7 +142,8 @@
       "items": [
         "PMP (Project Management Professional)",
         "PSM I (Professional Scrum Master)",
-        "MTA: Windows OS Fundamentals"
+        "MTA: Windows OS Fundamentals",
+        "Certified Tester Foundation Level (CTFL), ISTQB"
       ]
     }
   ],
@@ -182,7 +183,7 @@
     {
       "id": 1,
       "title": "Black Knight Consumer Web/Mobile Launch",
-      "description": "Directed the delivery of the organization's first consumer-facing mobile and responsive web applications.",
+      "description": "Directed the vendor integration and delivery of the organization's first consumer-facing mobile and responsive web applications.",
       "impact": "Successfully launched high-visibility digital products using hybrid Agile/Waterfall methodologies.",
       "tags": [
         "Mobile",
@@ -195,7 +196,7 @@
       "id": 2,
       "title": "defi & Sagent Enterprise Integration",
       "description": "Orchestrated enterprise-wide IT integration post-merger of defi and Sagent Auto from Fiserv.",
-      "impact": "Managed 20+ workstreams and delivered weekly C-level reporting on critical integration milestones.",
+      "impact": "Directed four critical IT workstreams and spearheaded weekly executive 'bridge' reporting for a 20+ workstream enterprise merger, ensuring seamless cross-functional alignment and real-time risk mitigation for C-suite stakeholders.",
       "tags": [
         "M&A",
         "IT Integration",
