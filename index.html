@@ -1,16 +1,408 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-    <link rel="icon" type="image/png" href="./favicon.png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fira+Code:wght@300..700&family=Geist+Mono:wght@100..900&family=Geist:wght@100..900&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Oxanium:wght@200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&family=Space+Grotesk:wght@300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    <script type="module" crossorigin src="./assets/index-BQzG3172.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-DJaYB7bp.css">
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karey Stratford, MBA, PMP, PSM I | Principal Technical Program Manager</title>
+    <meta name="description" content="Portfolio of Karey Stratford, Principal Technical Program Manager specializing in Enterprise SaaS, Fintech Platforms, and Technology Delivery & Transformation.">
+    <!-- Tailwind CSS CDN for clean modern styling matching your theme -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        darkBg: '#0b0f17',
+                        cardBg: '#131c2e',
+                        accentBlue: '#3b82f6',
+                        accentCyan: '#06b6d4'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-darkBg text-gray-100 font-sans antialiased selection:bg-accentBlue selection:text-white">
+
+    <!-- Header / Navigation -->
+    <header class="sticky top-0 z-50 bg-darkBg/90 backdrop-blur-md border-b border-gray-800">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="#" class="text-xl font-bold tracking-tight text-white flex items-center gap-2">
+                <span class="text-accentBlue">PORTFOLIO</span><span class="text-gray-500">.</span>
+            </a>
+            <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-gray-300">
+                <a href="#about" class="hover:text-accentCyan transition-colors">ABOUT</a>
+                <a href="#projects" class="hover:text-accentCyan transition-colors">PROJECTS</a>
+                <a href="#experience" class="hover:text-accentCyan transition-colors">EXPERIENCE</a>
+                <a href="#skills" class="hover:text-accentCyan transition-colors">SKILLS</a>
+                <a href="#education" class="hover:text-accentCyan transition-colors">EDUCATION</a>
+            </nav>
+            <a href="#contact" class="hidden sm:inline-flex items-center justify-center px-5 py-2.5 rounded-full text-sm font-semibold text-white bg-accentBlue hover:bg-blue-600 transition-all shadow-lg shadow-blue-500/20">
+                Let's Talk
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="relative pt-16 pb-24 overflow-hidden border-b border-gray-800/60">
+            <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                <div class="lg:col-span-7 space-y-6">
+                    <span class="text-accentCyan text-sm font-bold uppercase tracking-widest bg-cyan-950/50 px-3 py-1 rounded-full border border-cyan-800/40 inline-block">
+                        Principal Technical Program Manager
+                    </span>
+                    <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight text-white leading-tight">
+                        Karey Stratford, <span class="text-transparent bg-clip-text bg-gradient-to-r from-accentBlue to-accentCyan">MBA, PMP</span>
+                    </h1>
+                    <p class="text-xl text-gray-300 font-medium">
+                        Enterprise SaaS | Fintech Platforms | Technology Delivery & Transformation
+                    </p>
+                    <p class="text-gray-400 text-base sm:text-lg leading-relaxed">
+                        Technical program and delivery leader guiding enterprise fintech platforms, B2B mortgage software, customer-facing applications, and complex technology initiatives. Skilled at translating business priorities into technical roadmaps, delivery plans, risk controls, and executive-level reporting across distributed engineering teams and multi-vendor ecosystems.
+                    </p>
+                    <div class="flex flex-wrap items-center gap-4 pt-4">
+                        <a href="#contact" class="px-7 py-3.5 rounded-xl font-semibold text-white bg-accentBlue hover:bg-blue-600 transition-all shadow-lg shadow-blue-500/25 flex items-center gap-2">
+                            <span>Contact Me</span> <i class="fa-solid fa-arrow-right text-xs"></i>
+                        </a>
+                        <a href="mailto:karey.stratford@gmail.com" class="px-7 py-3.5 rounded-xl font-semibold text-gray-300 bg-gray-800 hover:bg-gray-700 transition-all border border-gray-700">
+                            Download CV
+                        </a>
+                    </div>
+                    <div class="flex items-center gap-5 pt-4 text-gray-400 text-lg">
+                        <a href="https://linkedin.com/in/kareystratford" target="_blank" rel="noopener" class="hover:text-accentCyan transition-colors"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="mailto:karey.stratford@gmail.com" class="hover:text-accentCyan transition-colors"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="https://github.com/karey-bou" target="_blank" rel="noopener" class="hover:text-accentCyan transition-colors"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="lg:col-span-5 flex justify-center">
+                    <div class="relative w-full max-w-md">
+                        <div class="absolute -inset-1 rounded-2xl bg-gradient-to-r from-accentBlue to-accentCyan opacity-30 blur-lg"></div>
+                        <div class="relative bg-cardBg border border-gray-800 p-3 rounded-2xl shadow-2xl">
+                            <img src="https://karey-bou.github.io/assets/img/profile.jpg" alt="Karey Stratford" onerror="this.src='https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80'" class="rounded-xl w-full h-[400px] object-cover object-center grayscale hover:grayscale-0 transition-all duration-500">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Strategic Impact / Metrics -->
+        <section class="py-20 bg-cardBg/40 border-b border-gray-800/60">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="text-center max-w-2xl mx-auto mb-16">
+                    <span class="text-accentBlue text-sm font-bold uppercase tracking-wider">Strategic Impact & Performance</span>
+                    <h2 class="text-3xl font-bold text-white mt-2">Proven Results at Scale</h2>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="bg-cardBg border border-gray-800 p-8 rounded-2xl relative overflow-hidden group hover:border-accentBlue/50 transition-all">
+                        <div class="text-4xl sm:text-5xl font-black text-accentCyan mb-2">46%</div>
+                        <h3 class="text-lg font-bold text-white mb-1">Acceleration</h3>
+                        <p class="text-sm text-gray-400">Reduction in product delivery time through optimized Agile intake and release planning.</p>
+                    </div>
+                    <div class="bg-cardBg border border-gray-800 p-8 rounded-2xl relative overflow-hidden group hover:border-accentBlue/50 transition-all">
+                        <div class="text-4xl sm:text-5xl font-black text-accentCyan mb-2">52%</div>
+                        <h3 class="text-lg font-bold text-white mb-1">Review Efficiency</h3>
+                        <p class="text-sm text-gray-400">Decrease in time to initial review by streamlining cross-functional coordination.</p>
+                    </div>
+                    <div class="bg-cardBg border border-gray-800 p-8 rounded-2xl relative overflow-hidden group hover:border-accentBlue/50 transition-all">
+                        <div class="text-4xl sm:text-5xl font-black text-accentCyan mb-2">21%</div>
+                        <h3 class="text-lg font-bold text-white mb-1">Cycle Time</h3>
+                        <p class="text-sm text-gray-400">Year-over-year reduction in time to release via prioritized backlog management.</p>
+                    </div>
+                    <div class="bg-cardBg border border-gray-800 p-8 rounded-2xl relative overflow-hidden group hover:border-accentBlue/50 transition-all">
+                        <div class="text-4xl sm:text-5xl font-black text-accentCyan mb-2">25+</div>
+                        <h3 class="text-lg font-bold text-white mb-1">Experience</h3>
+                        <p class="text-sm text-gray-400">Years leading enterprise financial technology, SaaS delivery, and software teams.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects / Strategic Initiatives -->
+        <section id="projects" class="py-24 max-w-7xl mx-auto px-6">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <span class="text-accentBlue text-sm font-bold uppercase tracking-wider">High-Impact Initiatives</span>
+                <h2 class="text-3xl font-bold text-white mt-2">Strategic Program Portfolio</h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="bg-cardBg border border-gray-800 rounded-2xl p-8 flex flex-col justify-between hover:border-accentBlue/50 transition-all">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="text-xs font-bold text-accentCyan bg-cyan-950 px-3 py-1 rounded-full border border-cyan-800/40">Fintech & SaaS</span>
+                            <i class="fa-solid fa-shield-halved text-gray-500"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3">Black Knight Consumer Web & Mobile Launch</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed mb-6">
+                            Directed vendor integration and delivery of the organization's first consumer-facing mobile and responsive web applications across a distributed microservices and event-driven ecosystem.
+                        </p>
+                    </div>
+                    <div class="flex flex-wrap gap-2 pt-4 border-t border-gray-800 text-xs text-gray-400 font-medium">
+                        <span class="bg-gray-800 px-2.5 py-1 rounded">Mobile App</span>
+                        <span class="bg-gray-800 px-2.5 py-1 rounded">API Gateway</span>
+                        <span class="bg-gray-800 px-2.5 py-1 rounded">Hybrid Agile</span>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="bg-cardBg border border-gray-800 rounded-2xl p-8 flex flex-col justify-between hover:border-accentBlue/50 transition-all">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="text-xs font-bold text-accentCyan bg-cyan-950 px-3 py-1 rounded-full border border-cyan-800/40">M&A Integration</span>
+                            <i class="fa-solid fa-network-wired text-gray-500"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3">defi & Sagent Enterprise M&A Integration</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed mb-6">
+                            Orchestrated enterprise-wide IT integration post-merger, directing four critical IT workstreams and spearheading weekly executive bridge reporting across 20+ workstreams for C-suite stakeholders.
+                        </p>
+                    </div>
+                    <div class="flex flex-wrap gap-2 pt-4 border-t border-gray-800 text-xs text-gray-400 font-medium">
+                        <span class="bg-gray-800 px-2.5 py-1 rounded">20 Workstreams</span>
+                        <span class="bg-gray-800 px-2.5 py-1 rounded">Change Management</span>
+                        <span class="bg-gray-800 px-2.5 py-1 rounded">Executive Rollups</span>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="bg-cardBg border border-gray-800 rounded-2xl p-8 flex flex-col justify-between hover:border-accentBlue/50 transition-all">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="text-xs font-bold text-accentCyan bg-cyan-950 px-3 py-1 rounded-full border border-cyan-800/40">ProductOps</span>
+                            <i class="fa-solid fa-chart-line text-gray-500"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3">Default Management Platform (Tempo)</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed mb-6">
+                            Directed program delivery for the core Default Management platform and CARE 2.0 consumer mortgage application, managing 4 cross-functional engineering teams within an 85-person organization.
+                        </p>
+                    </div>
+                    <div class="flex flex-wrap gap-2 pt-4 border-t border-gray-800 text-xs text-gray-400 font-medium">
+                        <span class="bg-gray-800 px-2.5 py-1 rounded">Productboard</span>
+                        <span class="bg-gray-800 px-2.5 py-1 rounded">Capacity Planning</span>
+                        <span class="bg-gray-800 px-2.5 py-1 rounded">B2B SaaS</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional History -->
+        <section id="experience" class="py-24 bg-cardBg/40 border-t border-b border-gray-800/60">
+            <div class="max-w-4xl mx-auto px-6">
+                <div class="text-center max-w-2xl mx-auto mb-16">
+                    <span class="text-accentBlue text-sm font-bold uppercase tracking-wider">Career Journey</span>
+                    <h2 class="text-3xl font-bold text-white mt-2">Professional History</h2>
+                </div>
+
+                <div class="space-y-12">
+                    <!-- Southern Oak Insurance -->
+                    <div class="bg-cardBg border border-gray-800 p-8 rounded-2xl relative">
+                        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-4">
+                            <div>
+                                <h3 class="text-xl font-bold text-white">IT Delivery Manager</h3>
+                                <p class="text-accentCyan font-medium">Southern Oak Insurance Company • Ponte Vedra Beach, FL</p>
+                            </div>
+                            <span class="text-xs font-bold bg-blue-950 text-blue-300 px-3 py-1 rounded-full border border-blue-800/40 w-fit">October 2026–Present</span>
+                        </div>
+                        <ul class="space-y-3 text-gray-300 text-sm leading-relaxed list-disc list-inside">
+                            <li>Established IT portfolio governance, including a centralized RAID framework, master register, executive dashboard, and weekly leadership review cadence.</li>
+                            <li>Lead delivery coordination for Duck Creek/Aggne initiatives, managing backlog priorities, roadmap baselines, sprint commitments, and UAT readiness.</li>
+                            <li>Coordinate Oak Leaf V2/NLS modernization and integration across middleware, testing, cutover readiness, Azure DevOps, and 18 integration partners.</li>
+                            <li>Developed a streamlined project intake and prioritization process using WSJF scoring and governed Freshservice-to-Azure DevOps synchronization.</li>
+                            <li>Coordinated approval and rollout of the company's AI Acceptable Use Policy, establishing governance for human review and customer-facing AI.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Southern Oak Consulting -->
+                    <div class="bg-cardBg border border-gray-800 p-8 rounded-2xl relative">
+                        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-4">
+                            <div>
+                                <h3 class="text-xl font-bold text-white">IT Consultant (1099)</h3>
+                                <p class="text-accentCyan font-medium">Southern Oak Insurance Company • Ponte Vedra Beach, FL</p>
+                            </div>
+                            <span class="text-xs font-bold bg-gray-800 text-gray-300 px-3 py-1 rounded-full border border-gray-700 w-fit">Sep–Dec 2025; July–Oct 2026</span>
+                        </div>
+                        <ul class="space-y-3 text-gray-300 text-sm leading-relaxed list-disc list-inside">
+                            <li>Supported Power BI reporting migration from legacy SQL to Snowflake; validated Data Warehouse updates and regulatory outputs through UAT.</li>
+                            <li>Evaluated Data Warehouse modernization opportunities and authored a strategic white paper for the COO.</li>
+                            <li>Audited telecom contracts and identified approximately $12,000 in annual cost savings, presenting findings to executive leadership.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Sagent Product Operations Manager -->
+                    <div class="bg-cardBg border border-gray-800 p-8 rounded-2xl relative">
+                        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-4">
+                            <div>
+                                <h3 class="text-xl font-bold text-white">Product Operations Manager</h3>
+                                <p class="text-accentCyan font-medium">Sagent • Remote, FL</p>
+                            </div>
+                            <span class="text-xs font-bold bg-gray-800 text-gray-300 px-3 py-1 rounded-full border border-gray-700 w-fit">December 2023–July 2025</span>
+                        </div>
+                        <ul class="space-y-3 text-gray-300 text-sm leading-relaxed list-disc list-inside">
+                            <li>Improved feature intake and release planning, reducing time to initial review by 52%, accelerating product delivery by 46%, and reducing cycle time by 21%.</li>
+                            <li>Led end-to-end Productboard implementation, configuration, training, and cross-team adoption, significantly streamlining roadmap management.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Sagent Director -->
+                    <div class="bg-cardBg border border-gray-800 p-8 rounded-2xl relative">
+                        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-4">
+                            <div>
+                                <h3 class="text-xl font-bold text-white">Director of Program Management</h3>
+                                <p class="text-accentCyan font-medium">Sagent • Remote, FL</p>
+                            </div>
+                            <span class="text-xs font-bold bg-gray-800 text-gray-300 px-3 py-1 rounded-full border border-gray-700 w-fit">September 2020–November 2023</span>
+                        </div>
+                        <ul class="space-y-3 text-gray-300 text-sm leading-relaxed list-disc list-inside">
+                            <li>Directed delivery of 2–5 concurrent enterprise programs for the Default Platform, coordinating backlogs across 4 cross-functional teams within an 85-person engineering organization.</li>
+                            <li>Built delivery frameworks from scratch for Claims and Loss Mitigation initiatives, establishing roadmap cadence and executive reporting for C-suite stakeholders.</li>
+                        </ul>
+                    </div>
+
+                    <!-- defi SOLUTIONS -->
+                    <div class="bg-cardBg border border-gray-800 p-8 rounded-2xl relative">
+                        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-4">
+                            <div>
+                                <h3 class="text-xl font-bold text-white">Program Manager</h3>
+                                <p class="text-accentCyan font-medium">defi SOLUTIONS • Remote, FL</p>
+                            </div>
+                            <span class="text-xs font-bold bg-gray-800 text-gray-300 px-3 py-1 rounded-full border border-gray-700 w-fit">October 2019–August 2020</span>
+                        </div>
+                        <ul class="space-y-3 text-gray-300 text-sm leading-relaxed list-disc list-inside">
+                            <li>Led execution across 4 major IT tracks within a 20-workstream enterprise merger integration program, managing cross-functional dependencies and producing weekly C-level reporting.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Florida Blue -->
+                    <div class="bg-cardBg border border-gray-800 p-8 rounded-2xl relative">
+                        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-4">
+                            <div>
+                                <h3 class="text-xl font-bold text-white">Senior Program Manager</h3>
+                                <p class="text-accentCyan font-medium">Florida Blue • Jacksonville, FL</p>
+                            </div>
+                            <span class="text-xs font-bold bg-gray-800 text-gray-300 px-3 py-1 rounded-full border border-gray-700 w-fit">February 2019–October 2019</span>
+                        </div>
+                        <ul class="space-y-3 text-gray-300 text-sm leading-relaxed list-disc list-inside">
+                            <li>Coordinated 7 cross-functional teams using Scrum and hybrid delivery methods across two concurrent annual enrollment programs, delivering on time and under budget.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Black Knight -->
+                    <div class="bg-cardBg border border-gray-800 p-8 rounded-2xl relative">
+                        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-4">
+                            <div>
+                                <h3 class="text-xl font-bold text-white">Integration Program Manager | QA Manager | QA Analyst</h3>
+                                <p class="text-accentCyan font-medium">Black Knight Financial Services • Jacksonville, FL</p>
+                            </div>
+                            <span class="text-xs font-bold bg-gray-800 text-gray-300 px-3 py-1 rounded-full border border-gray-700 w-fit">2005–2019</span>
+                        </div>
+                        <ul class="space-y-3 text-gray-300 text-sm leading-relaxed list-disc list-inside">
+                            <li>Directed a $5M Freddie Mac Investor Reporting initiative (100,000+ project hours) and a $2M IBM mainframe encryption program; both delivered on schedule.</li>
+                            <li>Led program coordination for the company's first consumer-facing iOS and Android mortgage borrower applications across a microservices and event-driven ecosystem.</li>
+                            <li>Led a blended team of 20+ QA testers across the U.S. and India, establishing quality governance and defect-management practices.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills & Leadership -->
+        <section id="skills" class="py-24 max-w-7xl mx-auto px-6">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <span class="text-accentBlue text-sm font-bold uppercase tracking-wider">Expertise</span>
+                <h2 class="text-3xl font-bold text-white mt-2">Strategic Competencies & Leadership</h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-cardBg border border-gray-800 p-8 rounded-2xl">
+                    <h3 class="text-lg font-bold text-white mb-4 flex items-center gap-2">
+                        <i class="fa-solid fa-chess-queen text-accentCyan"></i> Leadership & Governance
+                    </h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-gray-800 text-gray-300 text-xs px-3 py-1.5 rounded-lg">Technical Program Management</span>
+                        <span class="bg-gray-800 text-gray-300 text-xs px-3 py-1.5 rounded-lg">Enterprise SaaS Delivery</span>
+                        <span class="bg-gray-800 text-gray-300 text-xs px-3 py-1.5 rounded-lg">Executive Stakeholder Reporting</span>
+                        <span class="bg-gray-800 text-gray-300 text-xs px-3 py-1.5 rounded-lg">RAID & Risk Management</span>
+                        <span class="bg-gray-800 text-gray-300 text-xs px-3 py-1.5 rounded-lg">Vendor Integration Coordination</span>
+                        <span class="bg-gray-800 text-gray-300 text-xs px-3 py-1.5 rounded-lg">AI Policy & Governance</span>
+                    </div>
+                </div>
+                <div class="bg-cardBg border border-gray-800 p-8 rounded-2xl">
+                    <h3 class="text-lg font-bold text-white mb-4 flex items-center gap-2">
+                        <i class="fa-solid fa-arrows-split-up-and-left text-accentCyan"></i> Methodologies & Scale
+                    </h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-gray-800 text-gray-300 text-xs px-3 py-1.5 rounded-lg">Agile / Scrum / Kanban</span>
+                        <span class="bg-gray-800 text-gray-300 text-xs px-3 py-1.5 rounded-lg">WSJF Prioritization</span>
+                        <span class="bg-gray-800 text-gray-300 text-xs px-3 py-1.5 rounded-lg">Product Operations</span>
+                        <span class="bg-gray-800 text-gray-300 text-xs px-3 py-1.5 rounded-lg">Microservices & Event-Driven</span>
+                        <span class="bg-gray-800 text-gray-300 text-xs px-3 py-1.5 rounded-lg">UAT Readiness & Execution</span>
+                        <span class="bg-gray-800 text-gray-300 text-xs px-3 py-1.5 rounded-lg">Financial Forecasting</span>
+                    </div>
+                </div>
+                <div class="bg-cardBg border border-gray-800 p-8 rounded-2xl">
+                    <h3 class="text-lg font-bold text-white mb-4 flex items-center gap-2">
+                        <i class="fa-solid fa-award text-accentCyan"></i> Professional Leadership
+                    </h3>
+                    <div class="space-y-3 text-sm text-gray-300">
+                        <p><strong>PMI – Northeast Florida Chapter</strong><br><span class="text-xs text-gray-400">Director of Web Technology | Volunteer Officer</span></p>
+                        <p><strong>PMI-NEFL AI Community of Practice</strong><br><span class="text-xs text-gray-400">Advisory Board Member</span></p>
+                        <hr class="border-gray-800 my-2">
+                        <p><strong>PMP</strong> • Project Management Professional<br><strong>PSM I</strong> • Professional Scrum Master<br><strong>ISTQB CTFL</strong> • Foundation Level</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section id="education" class="py-24 bg-cardBg/40 border-t border-b border-gray-800/60">
+            <div class="max-w-4xl mx-auto px-6">
+                <div class="text-center max-w-2xl mx-auto mb-16">
+                    <span class="text-accentBlue text-sm font-bold uppercase tracking-wider">Academic Background</span>
+                    <h2 class="text-3xl font-bold text-white mt-2">Education & Credentials</h2>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    <div class="bg-cardBg border border-gray-800 p-8 rounded-2xl">
+                        <h3 class="text-xl font-bold text-white mb-1">University of Florida</h3>
+                        <p class="text-accentCyan font-medium text-sm mb-3">Master of Business Administration (MBA)</p>
+                        <p class="text-gray-400 text-xs">Graduate business core with emphasis on strategic financial management and organizational leadership.</p>
+                    </div>
+                    <div class="bg-cardBg border border-gray-800 p-8 rounded-2xl">
+                        <h3 class="text-xl font-bold text-white mb-1">University of Florida</h3>
+                        <p class="text-accentCyan font-medium text-sm mb-3">Bachelor of Science, Electrical Engineering</p>
+                        <p class="text-gray-400 text-xs">Minor in Computer Engineering. Strong analytical foundation for complex systems architecture.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-24 max-w-3xl mx-auto px-6">
+            <div class="text-center mb-12">
+                <span class="text-accentBlue text-sm font-bold uppercase tracking-wider">Get in Touch</span>
+                <h2 class="text-3xl font-bold text-white mt-2">Let's Discuss Opportunities</h2>
+            </div>
+            <div class="bg-cardBg border border-gray-800 p-8 sm:p-10 rounded-2xl shadow-xl">
+                <form action="https://formspree.io/f/your-form-id" method="POST" class="space-y-6">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-300 mb-2">Name</label>
+                        <input type="text" name="name" required class="w-full bg-darkBg border border-gray-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-accentBlue transition-colors">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-300 mb-2">Email</label>
+                        <input type="email" name="email" required class="w-full bg-darkBg border border-gray-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-accentBlue transition-colors">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-300 mb-2">Message</label>
+                        <textarea name="message" rows="4" required class="w-full bg-darkBg border border-gray-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-accentBlue transition-colors"></textarea>
+                    </div>
+                    <button type="submit" class="w-full py-4 rounded-xl font-bold text-white bg-accentBlue hover:bg-blue-600 transition-all shadow-lg shadow-blue-500/20">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-gray-800/80 py-8 bg-darkBg text-center text-gray-500 text-sm">
+        <p>&copy; 2026 Karey Stratford, MBA, PMP. All rights reserved.</p>
+    </footer>
+
+</body>
 </html>
